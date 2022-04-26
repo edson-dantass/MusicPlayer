@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="container" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="158.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.edsondantass.musicplayer.MediaController">
+   <children>
+      <ImageView fx:id="btnPlay" disable="true" fitHeight="40.0" fitWidth="40.0" layoutX="162.0" layoutY="90.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/play.png" />
+         </image></ImageView>
+      <ImageView fx:id="btnPause" fitHeight="40.0" fitWidth="40.0" layoutX="162.0" layoutY="90.0" onMouseClicked="#pause" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../assets/pause.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="musicName" layoutX="162.0" layoutY="31.0" prefHeight="44.0" prefWidth="410.0" text="...">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <ImageView fitHeight="108.0" fitWidth="108.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/album.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="progress" layoutX="255.0" layoutY="103.0" prefHeight="16.0" prefWidth="236.0" />
+      <ImageView fx:id="btnFinishDisabled" fitHeight="32.0" fitWidth="32.0" layoutX="210.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/finish-disabled.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnFinish" fitHeight="32.0" fitWidth="32.0" layoutX="210.0" layoutY="94.0" onMouseClicked="#finish" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../assets/finish.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnMute" fitHeight="30.0" fitWidth="30.0" layoutX="510.0" layoutY="94.0" onMouseClicked="#mute" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/mute.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnUnmute" fitHeight="30.0" fitWidth="30.0" layoutX="510.0" layoutY="94.0" onMouseClicked="#unmute" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../assets/unmute.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnSearch" fitHeight="30.0" fitWidth="30.0" layoutX="547.0" layoutY="94.0" onMouseClicked="#search" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/search.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

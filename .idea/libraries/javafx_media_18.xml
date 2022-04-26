@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="javafx-media-18">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/lib/javafx-media-18.jar!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javafx-media-18.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/javafx-media-18.jar!/" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="jar://$PROJECT_DIR$/lib/javafx-media-18.jar!/" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/javafx-media-18.jar!/" />
+    </SOURCES>
+    <jarDirectory url="jar://$PROJECT_DIR$/lib/javafx-media-18.jar!/" recursive="false" />
+    <jarDirectory url="jar://$PROJECT_DIR$/lib/javafx-media-18.jar!/" recursive="false" type="SOURCES" />
+  </library>
+</component>
